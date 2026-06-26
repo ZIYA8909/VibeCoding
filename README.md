@@ -34,14 +34,3 @@ Armory is a premium, high-converting, and fully responsive landing page for an a
 - **Styling**: TailwindCSS, Custom Glassmorphism, Vanilla CSS Transitions
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ZIYA8909/VibeCoding.git
-   cd VibeCoding
