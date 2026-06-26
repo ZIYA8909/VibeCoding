@@ -1,0 +1,25 @@
+:root {
+  /* Color Palette Hex values */
+  --color-bg-hex: #172B36; /* Oceanic Noir */
+  --color-bg-secondary-hex: #114C5A; /* Nocturnal Expedition */
+  --color-text-primary-hex: #F1F6F4; /* Arctic Powder */
+  --color-text-secondary-hex: #D9E8E2; /* Mystic Mint */
+  --color-primary-hex: #FFC801; /* Forsythia */
+  --color-accent-hex: #FF9932; /* Deep Saffron */
+
+  /* RGB Formats for transparency manipulation */
+  --color-bg: 23, 43, 54;
+  --color-bg-secondary: 17, 76, 90;
+  --color-text-primary: 241, 246, 244;
+  --color-text-secondary: 217, 232, 226;
+  --color-primary: 255, 200, 1;
+  --color-accent: 255, 153, 50;
+
+  /* Motion durations as specified in speed run brief */
+  --motion-fast: 180ms;     /* Hover transitions (150-200ms) */
+  --motion-medium: 340ms;   /* Structural layout reflows (300-400ms) */
+  
+  /* Easing curves */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}

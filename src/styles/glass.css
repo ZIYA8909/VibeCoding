@@ -1,0 +1,42 @@
+.glass {
+  background: rgba(var(--color-bg), 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(var(--color-text-primary), 0.05);
+}
+
+.glass-heavy {
+  background: rgba(var(--color-bg-secondary), 0.25);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(var(--color-text-primary), 0.1);
+}
+
+.glass-navbar {
+  background: rgba(var(--color-bg), 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(var(--color-text-primary), 0.08);
+}
+
+.glass-card {
+  background: rgba(var(--color-bg), 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(var(--color-text-primary), 0.06);
+  transition: 
+    border-color var(--motion-fast) var(--ease-out),
+    box-shadow var(--motion-fast) var(--ease-out),
+    transform var(--motion-fast) var(--ease-out);
+}
+
+.glass-card:hover {
+  border-color: rgba(var(--color-primary), 0.35);
+  box-shadow: 0 10px 30px -10px rgba(var(--color-primary), 0.15);
+  transform: translateY(-4px);
+}
+
+.glass-card-active {
+  border-color: rgba(var(--color-primary), 0.6);
+  box-shadow: 0 10px 30px -10px rgba(var(--color-primary), 0.25);
+}
